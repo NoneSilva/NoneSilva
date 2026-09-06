@@ -18,4 +18,4 @@ developer.
   [#330](https://github.com/pgourlain/vscode_erlang/pull/330)
 - Advisory: [GHSA-573p-mcvv-hchg](https://github.com/pgourlain/vscode_erlang/security/advisories/GHSA-573p-mcvv-hchg) — severity **High**
 - Released in [1.1.5](https://github.com/pgourlain/vscode_erlang/blob/master/CHANGELOG.md)
-- Write-up: <https://erts-sched.github.io/>
+- Write-up: <https://erts-sched.github.io/security/vscode-erlang-loopback-rce/>
