@@ -19,3 +19,17 @@ developer.
 - Advisory: [GHSA-573p-mcvv-hchg](https://github.com/pgourlain/vscode_erlang/security/advisories/GHSA-573p-mcvv-hchg) — severity **High**
 - Released in [1.1.5](https://github.com/pgourlain/vscode_erlang/blob/master/CHANGELOG.md)
 - Write-up: <https://erts-sched.github.io/security/vscode-erlang-loopback-rce/>
+
+**Erlang/OTP** — distribution documentation
+([erlang/otp](https://github.com/erlang/otp))
+
+The general lesson of the extension bug, taken upstream: a measured
+documentation change explaining how to bind a distributed node to the local
+host, what each setting does and does not do, and that binding is not
+authentication.
+
+- Pull request: [erlang/otp#11617](https://github.com/erlang/otp/pull/11617)
+  (target `maint`)
+- Measurements: [erts-sched/otp-loopback-node-measurements](https://github.com/erts-sched/otp-loopback-node-measurements)
+  — re-runnable, OTP 27/28/29, IPv4 and IPv6
+- Write-up: <https://erts-sched.github.io/security/otp-loopback-node-docs/>
