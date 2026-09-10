@@ -5,6 +5,19 @@ algorithm optimization. Erlang/BEAM.
 
 ## Security research
 
+**ElixirLS** — MCP server bound to loopback
+([elixir-lsp/elixir-ls](https://github.com/elixir-lsp/elixir-ls))
+
+The same class in a second BEAM tool: the opt-in MCP TCP server listened on
+all interfaces with no authentication, exposing its six read-only
+project-inspection tools to the network. The change binds it to `127.0.0.1`,
+keeps the language server up when the bind fails, and adds a test that asserts
+the bound address.
+
+- Pull request: [elixir-lsp/elixir-ls#1275](https://github.com/elixir-lsp/elixir-ls/pull/1275)
+- Measurements: [erts-sched/elixir-ls-mcp-bind-measurements](https://github.com/erts-sched/elixir-ls-mcp-bind-measurements)
+  — re-runnable in Docker, OTP 27/28/29
+
 **Erlang/OTP** — distribution documentation
 ([erlang/otp](https://github.com/erlang/otp))
 
