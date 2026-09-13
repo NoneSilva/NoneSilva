@@ -1,8 +1,5 @@
 # Guilherme Silva
 
-Research interests: computer architecture, distributed processing, and
-algorithm optimization. Erlang/BEAM.
-
 ## Security research
 
 **ElixirLS** — MCP server bound to loopback
