@@ -8,5 +8,3 @@ flowchart TB
     d["-spec mathematician() -> mathematician."]
     a ~~~ b ~~~ c ~~~ d
 ```
-
-<https://erts-sched.github.io/>
