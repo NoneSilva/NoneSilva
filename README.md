@@ -1,15 +1,4 @@
-`erts-sched's` background as a class diagram
-
----
-
-```mermaid
-classDiagram
-    class Computer
-    class Software
-    class Scientist
-    class Engineer
-    class Mathematician
-    Computer ..> Scientist
-    Computer ..> Engineer
-    Software ..> Engineer
-```
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="background-dark.svg">
+  <img alt="erts-sched's background as a class diagram: Computer depends on Scientist and Engineer, Software depends on Engineer, Mathematician stands alone" src="background-light.svg" width="520">
+</picture>
