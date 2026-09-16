@@ -1,8 +1,15 @@
-# Guilherme Silva
+`erts-sched's` background as a class diagram
 
-```erlang
--spec scientist(computer) -> scientist.
--spec engineer(computer) -> engineer.
--spec engineer(software) -> engineer.
--spec mathematician() -> mathematician.
+---
+
+```mermaid
+classDiagram
+    class Computer
+    class Software
+    class Scientist
+    class Engineer
+    class Mathematician
+    Computer ..> Scientist
+    Computer ..> Engineer
+    Software ..> Engineer
 ```
